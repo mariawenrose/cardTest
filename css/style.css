@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: auto;
+    background-color:lightblue;
+}
+
+h1 {
+    color: red;
+}
+
+.container {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed greenyellow;
+}
+
+.cardWrapper {
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.bgLightPink {
+    background: #faabde;
+    }
+
+.textDark {
+    color: #333333;
+    }
+
+.wrapper {
+    margin: 10px;
+}
+
+.paraStyle__designer--project {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.caption {
+    font-family: 'Heebo', sans-serif;
+    font-size: 0.7em;
+    font-weight: 100;
+}
